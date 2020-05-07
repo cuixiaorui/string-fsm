@@ -1,0 +1,16 @@
+{
+  "name": "string-fsm",
+  "version": "1.0.0",
+  "description": "提取源文件中的所有字符串。字符串是双引号之间的文本，但是字符串中的反斜杠会转义下一个字符，所以\"Ignore\\\"quotes\\\"\"是单独的一个字符串",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^25.2.1",
+    "jest": "^26.0.1"
+  }
+}
